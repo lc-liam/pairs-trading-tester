@@ -118,8 +118,15 @@ Displayed metrics include:
 ```bash
 git clone https://github.com/YOUR_USERNAME/pairs-trading-tester.git
 cd pairs-trading-tester
+```
+### 2. Create venv
+```bash
 python -m venv venv
 source venv/bin/activate     # macOS / Linux
 venv\Scripts\activate        # Windows
+```
+### 3. Install dependencies and run
+```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
